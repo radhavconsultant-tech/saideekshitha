@@ -63,9 +63,12 @@ const HomePage = () => {
   ];
 
   const areas = [
-    'Secunderabad', 'Kukatpally', 'Gachibowli', 'Madhapur', 'LB Nagar',
-    'Uppal', 'Mehdipatnam', 'Dilsukhnagar', 'Ameerpet', 'Begumpet',
-    'Banjara Hills', 'Jubilee Hills', 'Kondapur', 'Hitech City', 'Kompally'
+    'Miyapur', 'JNTU', 'KPHB Colony', 'Kukatpally', 'Balanagar', 'Moosapet',
+    'Erragadda', 'SR Nagar', 'Ameerpet', 'Punjagutta', 'Khairatabad',
+    'Lakdi-ka-pul', 'Nampally', 'MG Bus Station', 'Malakpet', 'Dilsukhnagar',
+    'Chaitanyapuri', 'LB Nagar', 'Nagole', 'Uppal', 'Habsiguda', 'Tarnaka',
+    'Secunderabad', 'Paradise', 'Begumpet', 'Jubilee Hills', 'Madhapur',
+    'HITEC City', 'Raidurg', 'Gachibowli', 'Kondapur', 'Manikonda'
   ];
 
   const trustBadges = [
@@ -403,16 +406,16 @@ const HomePage = () => {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-4">
             {[
+              { name: 'Miyapur', link: '/ambulance-service-miyapur' },
+              { name: 'KPHB Colony', link: '/ambulance-service-kphb' },
               { name: 'Kukatpally', link: '/ambulance-service-kukatpally' },
-              { name: 'Gachibowli', link: '/ambulance-service-gachibowli' },
-              { name: 'Madhapur', link: '/ambulance-service-madhapur' },
+              { name: 'Ameerpet', link: '/ambulance-service-ameerpet' },
+              { name: 'Dilsukhnagar', link: '/ambulance-service-dilsukhnagar' },
               { name: 'LB Nagar', link: '/ambulance-service-lb-nagar' },
               { name: 'Secunderabad', link: '/ambulance-service-secunderabad' },
-              { name: 'Uppal', link: '/ambulance-service-uppal' },
-              { name: 'Mehdipatnam', link: '/ambulance-services' },
-              { name: 'Dilsukhnagar', link: '/ambulance-services' },
-              { name: 'Ameerpet', link: '/ambulance-services' },
-              { name: 'Kondapur', link: '/ambulance-services' },
+              { name: 'HITEC City', link: '/ambulance-service-hitec-city' },
+              { name: 'Madhapur', link: '/ambulance-service-madhapur' },
+              { name: 'Gachibowli', link: '/ambulance-service-gachibowli' },
             ].map((area, index) => (
               <motion.div
                 key={index}

@@ -9,41 +9,101 @@ import { Card, CardContent } from '../components/ui/card';
 import SEOHead from '../components/SEOHead';
 
 const locationData = {
+  'miyapur': {
+    name: 'Miyapur',
+    landmarks: ['Miyapur Metro Station', 'Miyapur X Roads', 'Gangaram', 'Chandanagar', 'BHEL'],
+    hospitals: ['Medicover Hospital', 'Care Hospital Miyapur', 'Apollo Clinic'],
+    description: 'Miyapur is the starting point of Hyderabad Metro and a rapidly growing residential hub. Our ambulances provide 24/7 emergency service to Miyapur, Chandanagar, BHEL, and surrounding areas with quick response times.'
+  },
+  'kphb': {
+    name: 'KPHB Colony',
+    landmarks: ['KPHB Metro Station', 'JNTU College', 'Road No 1 KPHB', 'Nizampet', 'Pragathi Nagar'],
+    hospitals: ['Sunshine Hospital', 'Apollo Clinic KPHB', 'MaxCure Hospital'],
+    description: 'KPHB Colony (Kukatpally Housing Board) is one of the largest residential colonies in Hyderabad near JNTU. Our ambulances cover all phases of KPHB, JNTU area, and Nizampet with fast emergency response.'
+  },
   'kukatpally': {
     name: 'Kukatpally',
-    landmarks: ['KPHB Colony', 'Kukatpally Housing Board', 'Allwyn Colony', 'Moosapet', 'Balanagar'],
+    landmarks: ['Kukatpally Metro', 'KPHB Colony', 'Allwyn Colony', 'Moosapet', 'Balanagar'],
     hospitals: ['Continental Hospital', 'Prathima Hospital', 'Sree Manju Hospital'],
-    description: 'Kukatpally is one of the most densely populated areas in Hyderabad with numerous residential colonies and IT companies. Our ambulances are strategically positioned to serve the entire Kukatpally area including KPHB, Allwyn Colony, and surrounding localities.'
+    description: 'Kukatpally is one of the most densely populated areas in Hyderabad with numerous residential colonies and IT companies. Our ambulances are strategically positioned to serve the entire Kukatpally area including KPHB, Allwyn Colony, Moosapet, and Balanagar.'
   },
-  'gachibowli': {
-    name: 'Gachibowli',
-    landmarks: ['Financial District', 'DLF Cyber City', 'Wipro Circle', 'Biodiversity Junction', 'Nanakramguda'],
-    hospitals: ['AIG Hospitals', 'Continental Hospital', 'Apollo Hospitals'],
-    description: 'Gachibowli is Hyderabad\'s major IT hub and financial district. Our ambulances provide rapid emergency response to all IT parks, corporate offices, and residential areas in Gachibowli, Financial District, and Nanakramguda.'
+  'ameerpet': {
+    name: 'Ameerpet',
+    landmarks: ['Ameerpet Metro Station', 'SR Nagar', 'Punjagutta', 'Greenlands', 'Balkampet'],
+    hospitals: ['Yashoda Hospital', 'Care Hospital', 'Apollo Hospital'],
+    description: 'Ameerpet is Hyderabad\'s education and coaching hub with metro connectivity. Our ambulance service covers Ameerpet, SR Nagar, Punjagutta, Balkampet, and surrounding areas with rapid response.'
   },
-  'madhapur': {
-    name: 'Madhapur',
-    landmarks: ['Hitech City', 'Cyber Towers', 'HITEC City Metro', 'Durgam Cheruvu', 'Kavuri Hills'],
-    hospitals: ['CARE Hospitals', 'MaxCure Hospital', 'Citizens Hospital'],
-    description: 'Madhapur and Hitech City form the heart of Hyderabad\'s technology sector. Our emergency ambulance service covers all of Madhapur including IT corridors, tech parks, and residential complexes.'
+  'dilsukhnagar': {
+    name: 'Dilsukhnagar',
+    landmarks: ['Dilsukhnagar Metro', 'Chaitanyapuri', 'Malakpet', 'New Market', 'Moosarambagh'],
+    hospitals: ['Yashoda Hospital', 'Kamineni Hospital', 'Global Hospital'],
+    description: 'Dilsukhnagar is a major commercial and residential area in South Hyderabad. We provide fast ambulance service to Dilsukhnagar, Chaitanyapuri, Malakpet, Moosarambagh, and Victoria Memorial areas.'
   },
   'lb-nagar': {
     name: 'LB Nagar',
-    landmarks: ['LB Nagar Circle', 'Sagar Ring Road', 'Kothapet', 'Nagole', 'Champapet'],
+    landmarks: ['LB Nagar Metro', 'Sagar Ring Road', 'Kothapet', 'Nagole', 'Champapet'],
     hospitals: ['Global Hospital', 'Aware Global Hospital', 'Yashoda Hospital'],
-    description: 'LB Nagar is our base location, allowing us to provide the fastest response times in this area. We cover all of LB Nagar including Kothapet, Nagole, Champapet, and areas along the Sagar Ring Road.'
+    description: 'LB Nagar is our base location beside Global Hospital, allowing us to provide the fastest response times in this area. We cover all of LB Nagar including Kothapet, Nagole, Champapet, Victoria Memorial, and Chaitanyapuri.'
   },
   'secunderabad': {
     name: 'Secunderabad',
-    landmarks: ['Secunderabad Railway Station', 'Paradise Circle', 'Trimulgherry', 'Marredpally', 'Tarnaka'],
-    hospitals: ['Yashoda Hospital', 'Krishna Institute', 'Care Hospital'],
-    description: 'Secunderabad, the twin city of Hyderabad, is well-covered by our ambulance network. We serve all areas including Paradise, Trimulgherry, Marredpally, Begumpet, and surrounding localities.'
+    landmarks: ['Secunderabad Railway Station', 'Paradise', 'Parade Ground', 'Rasoolpura', 'Mettuguda'],
+    hospitals: ['Yashoda Hospital', 'Gandhi Hospital', 'Care Hospital'],
+    description: 'Secunderabad, the twin city of Hyderabad, is well-covered by our ambulance network. We serve Paradise, Parade Ground, JBS, Rasoolpura, Prakash Nagar, Tarnaka, and all surrounding localities.'
+  },
+  'hitec-city': {
+    name: 'HITEC City',
+    landmarks: ['HITEC City Metro', 'Cyber Towers', 'Raheja Mindspace', 'Durgam Cheruvu', 'Raidurg'],
+    hospitals: ['CARE Hospitals', 'Continental Hospital', 'AIG Hospitals'],
+    description: 'HITEC City is Hyderabad\'s premier IT hub with major tech companies. Our ICU ambulances provide 24/7 emergency service to all IT parks, Cyber Towers, Mindspace, Durgam Cheruvu, and Raidurg areas.'
+  },
+  'madhapur': {
+    name: 'Madhapur',
+    landmarks: ['Madhapur Metro', 'Hitech City', 'Cyber Towers', 'Kavuri Hills', 'Ayyappa Society'],
+    hospitals: ['CARE Hospitals', 'MaxCure Hospital', 'Citizens Hospital'],
+    description: 'Madhapur is the heart of Hyderabad\'s technology sector. Our emergency ambulance service covers all of Madhapur including Peddamma Gudi, Yusufguda, Jubilee Hills Road No 5, and IT corridors.'
+  },
+  'gachibowli': {
+    name: 'Gachibowli',
+    landmarks: ['Financial District', 'DLF Cyber City', 'Wipro Circle', 'Nanakramguda', 'Kondapur'],
+    hospitals: ['AIG Hospitals', 'Continental Hospital', 'Apollo Hospitals'],
+    description: 'Gachibowli is Hyderabad\'s major IT hub and financial district. Our ambulances provide rapid emergency response to Financial District, DLF, Wipro Circle, ISB, and all corporate parks.'
   },
   'uppal': {
     name: 'Uppal',
-    landmarks: ['Uppal Stadium', 'Habsiguda', 'Nacharam', 'Mallapur', 'ECIL'],
+    landmarks: ['Uppal Metro', 'Uppal Stadium', 'NGRI', 'Habsiguda', 'Nacharam'],
     hospitals: ['Sree Manju Hospital', 'Prasad Hospital', 'Rainbow Hospital'],
-    description: 'Our ambulance service covers the entire Uppal area including the industrial zones, residential areas, and IT corridors. Quick access to Habsiguda, Nacharam, ECIL, and Medipally.'
+    description: 'Our ambulance service covers the entire Uppal area including Stadium, NGRI, Habsiguda, Tarnaka, Nacharam, and ECIL with fast emergency response.'
+  },
+  'begumpet': {
+    name: 'Begumpet',
+    landmarks: ['Begumpet Metro', 'Begumpet Airport', 'Prakash Nagar', 'Madhura Nagar', 'Greenlands'],
+    hospitals: ['Yashoda Hospital', 'Care Hospital', 'Apollo Hospital'],
+    description: 'Begumpet is a prime commercial area with the old airport and metro connectivity. We cover Begumpet, Prakash Nagar, Madhura Nagar, Somajiguda, and Raj Bhavan Road areas.'
+  },
+  'jubilee-hills': {
+    name: 'Jubilee Hills',
+    landmarks: ['Jubilee Hills Check Post', 'Road No 36', 'Road No 5', 'Peddamma Temple', 'Film Nagar'],
+    hospitals: ['Apollo Hospital', 'KIMS Hospital', 'Care Hospital'],
+    description: 'Jubilee Hills is an upscale residential area in Hyderabad. Our premium ambulance service covers all roads in Jubilee Hills, Banjara Hills, Film Nagar, and Peddamma Gudi areas.'
+  },
+  'nampally': {
+    name: 'Nampally',
+    landmarks: ['Nampally Railway Station', 'Assembly', 'Abids', 'Gandhi Bhavan', 'Koti'],
+    hospitals: ['Osmania Hospital', 'Government General Hospital', 'Niloufer Hospital'],
+    description: 'Nampally is the heart of old Hyderabad with the main railway station. Our ambulance service covers Nampally, Assembly, Abids, Gandhi Bhavan, Lakdi-ka-pul, and Khairatabad areas.'
+  },
+  'mgbs': {
+    name: 'MG Bus Station',
+    landmarks: ['MGBS', 'Imlibun', 'Gowliguda', 'Afzalgunj', 'Chaderghat'],
+    hospitals: ['Osmania Hospital', 'Government Hospital', 'Care Hospital'],
+    description: 'MG Bus Station (Mahatma Gandhi Bus Station) is the main bus terminal of Hyderabad. We provide ambulance service to MGBS, Imlibun, Gowliguda, Malakpet, and surrounding areas.'
+  },
+  'tarnaka': {
+    name: 'Tarnaka',
+    landmarks: ['Tarnaka Metro', 'Mettuguda', 'Lalapet', 'Defence Colony', 'Vijayanagar Colony'],
+    hospitals: ['Care Hospital', 'Yashoda Hospital', 'Apollo Clinic'],
+    description: 'Tarnaka is a well-connected residential area with metro access. Our ambulance service covers Tarnaka, Mettuguda, Habsiguda, Lalapet, and areas near OU campus.'
   }
 };
 
