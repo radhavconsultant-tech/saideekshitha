@@ -1,51 +1,55 @@
-import { useEffect } from "react";
 import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
+// Components
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import FloatingButtons from "./components/FloatingButtons";
 
-const Home = () => {
-  const helloWorldApi = async () => {
-    try {
-      const response = await axios.get(`${API}/`);
-      console.log(response.data.message);
-    } catch (e) {
-      console.error(e, `errored out requesting / api`);
-    }
-  };
-
-  useEffect(() => {
-    helloWorldApi();
-  }, []);
-
-  return (
-    <div>
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" />
-        </a>
-        <p className="mt-5">Building something incredible ~!</p>
-      </header>
-    </div>
-  );
-};
+// Pages
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ServicesPage from "./pages/ServicesPage";
+import ContactPage from "./pages/ContactPage";
+import ICUAmbulancePage from "./pages/ICUAmbulancePage";
+import VentilatorAmbulancePage from "./pages/VentilatorAmbulancePage";
+import OxygenAmbulancePage from "./pages/OxygenAmbulancePage";
+import DeadBodyFreezerBoxPage from "./pages/DeadBodyFreezerBoxPage";
+import LocationPage from "./pages/LocationPage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App min-h-screen flex flex-col">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            {/* Main Pages */}
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about-us" element={<AboutPage />} />
+            <Route path="/ambulance-services" element={<ServicesPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            
+            {/* Service Pages */}
+            <Route path="/icu-ambulance-hyderabad" element={<ICUAmbulancePage />} />
+            <Route path="/ventilator-ambulance-hyderabad" element={<VentilatorAmbulancePage />} />
+            <Route path="/oxygen-ambulance-hyderabad" element={<OxygenAmbulancePage />} />
+            <Route path="/dead-body-freezer-box-hyderabad" element={<DeadBodyFreezerBoxPage />} />
+            
+            {/* Location Pages */}
+            <Route path="/ambulance-service-kukatpally" element={<LocationPage />} />
+            <Route path="/ambulance-service-gachibowli" element={<LocationPage />} />
+            <Route path="/ambulance-service-madhapur" element={<LocationPage />} />
+            <Route path="/ambulance-service-lb-nagar" element={<LocationPage />} />
+            <Route path="/ambulance-service-secunderabad" element={<LocationPage />} />
+            <Route path="/ambulance-service-uppal" element={<LocationPage />} />
+            
+            {/* Fallback to Home */}
+            <Route path="*" element={<HomePage />} />
+          </Routes>
+        </main>
+        <Footer />
+        <FloatingButtons />
       </BrowserRouter>
     </div>
   );
