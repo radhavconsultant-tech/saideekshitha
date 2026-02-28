@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
   <url>
     <loc>https://srisaideekshithaambulance.com/</loc>
     <lastmod>2025-12-28</lastmod>
@@ -24,6 +25,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <!-- Service Pages -->
   <url>
     <loc>https://srisaideekshithaambulance.com/icu-ambulance-hyderabad</loc>
     <lastmod>2025-12-28</lastmod>
@@ -48,6 +51,20 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <!-- Location Pages - Metro Line Areas -->
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-miyapur</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-kphb</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://srisaideekshithaambulance.com/ambulance-service-kukatpally</loc>
     <lastmod>2025-12-28</lastmod>
@@ -55,13 +72,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://srisaideekshithaambulance.com/ambulance-service-gachibowli</loc>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-ameerpet</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://srisaideekshithaambulance.com/ambulance-service-madhapur</loc>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-dilsukhnagar</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -79,7 +96,55 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-hitec-city</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-madhapur</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-gachibowli</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://srisaideekshithaambulance.com/ambulance-service-uppal</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-begumpet</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-jubilee-hills</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-nampally</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-mgbs</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://srisaideekshithaambulance.com/ambulance-service-tarnaka</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
