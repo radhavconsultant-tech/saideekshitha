@@ -38,8 +38,8 @@ export const Footer = () => {
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg md:text-xl font-bold" style={{ fontFamily: 'Oswald, sans-serif' }}>
             24/7 EMERGENCY AMBULANCE SERVICE - CALL NOW:{' '}
-            <a href="tel:9666606910" className="underline hover:no-underline">
-              9666606910
+            <a href="tel:9666069108" className="underline hover:no-underline">
+              9666069108
             </a>
           </p>
         </div>
@@ -60,9 +60,9 @@ export const Footer = () => {
               Hyderabad's most trusted 24/7 emergency ambulance service provider. Fast response, modern equipment, and certified paramedics.
             </p>
             <div className="space-y-3">
-              <a href="tel:9666606910" className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors">
+              <a href="tel:9666069108" className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors">
                 <Phone className="w-5 h-5 text-red-500" />
-                9666606910
+                9666069108
               </a>
               <a href="tel:9948386178" className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors">
                 <Phone className="w-5 h-5 text-red-500" />

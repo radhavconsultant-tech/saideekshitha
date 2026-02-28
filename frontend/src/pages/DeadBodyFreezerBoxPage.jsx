@@ -49,7 +49,7 @@ const DeadBodyFreezerBoxPage = () => {
     },
     {
       question: 'What is the cost of dead body freezer box service?',
-      answer: 'Charges vary based on distance, duration, and services required. We offer transparent pricing with no hidden costs. Call us at 9666606910 for exact pricing based on your specific requirements.'
+      answer: 'Charges vary based on distance, duration, and services required. We offer transparent pricing with no hidden costs. Call us at 9666069108 for exact pricing based on your specific requirements.'
     }
   ];
 
@@ -57,7 +57,7 @@ const DeadBodyFreezerBoxPage = () => {
     <>
       <SEOHead
         title="Dead Body Freezer Box in Hyderabad | Mortuary Ambulance Service 24/7"
-        description="Dead Body Freezer Box Service in Hyderabad. Mortuary van, body preservation, interstate transport, documentation support. 24/7 service with dignity and respect. Call 9666606910."
+        description="Dead Body Freezer Box Service in Hyderabad. Mortuary van, body preservation, interstate transport, documentation support. 24/7 service with dignity and respect. Call 9666069108."
         keywords="dead body freezer box hyderabad, mortuary ambulance hyderabad, dead body transport, hearse service hyderabad, mortuary van, body preservation service"
         canonicalUrl="https://srisaideekshithaambulance.com/dead-body-freezer-box-hyderabad"
         serviceName="Dead Body Freezer Box Service"
@@ -88,10 +88,10 @@ const DeadBodyFreezerBoxPage = () => {
               body preservation, documentation support, and interstate transfer facilities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:9666606910">
+              <a href="tel:9666069108">
                 <Button className="bg-white text-slate-900 hover:bg-slate-100 font-bold text-lg h-16 px-10 rounded-full shadow-xl">
                   <Phone className="w-6 h-6 mr-3" />
-                  CALL 9666606910
+                  CALL 9666069108
                 </Button>
               </a>
               <a href="https://wa.me/919948386178" target="_blank" rel="noopener noreferrer">
@@ -253,10 +253,10 @@ const DeadBodyFreezerBoxPage = () => {
                     <p className="mb-6 text-slate-300">
                       24/7 Mortuary Service with Dignity
                     </p>
-                    <a href="tel:9666606910" className="block">
+                    <a href="tel:9666069108" className="block">
                       <Button className="w-full bg-white text-slate-800 hover:bg-slate-100 font-bold h-14 rounded-full text-lg mb-3">
                         <Phone className="w-5 h-5 mr-2" />
-                        9666606910
+                        9666069108
                       </Button>
                     </a>
                     <a href="tel:9948386178" className="block">
@@ -314,10 +314,10 @@ const DeadBodyFreezerBoxPage = () => {
             <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
               Compassionate service available 24/7. We handle everything with dignity and respect.
             </p>
-            <a href="tel:9666606910">
+            <a href="tel:9666069108">
               <Button className="bg-white text-slate-900 hover:bg-slate-100 font-bold text-lg h-16 px-12 rounded-full shadow-xl">
                 <Phone className="w-6 h-6 mr-3" />
-                CALL NOW - 9666606910
+                CALL NOW - 9666069108
               </Button>
             </a>
           </motion.div>

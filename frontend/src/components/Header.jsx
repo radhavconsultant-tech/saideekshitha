@@ -47,8 +47,8 @@ export const Header = () => {
             </span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:9666606910" className="hover:text-red-400 transition-colors">
-              <Phone className="w-4 h-4 inline mr-1" /> 9666606910
+            <a href="tel:9666069108" className="hover:text-red-400 transition-colors">
+              <Phone className="w-4 h-4 inline mr-1" /> 9666069108
             </a>
             <span className="text-slate-500">|</span>
             <a href="tel:9948386178" className="hover:text-red-400 transition-colors">
@@ -116,7 +116,7 @@ export const Header = () => {
 
             {/* CTA Button */}
             <div className="flex items-center gap-3">
-              <a href="tel:9666606910" className="hidden sm:block">
+              <a href="tel:9666069108" className="hidden sm:block">
                 <Button
                   className="bg-red-600 hover:bg-red-700 text-white font-bold px-6 h-12 rounded-full shadow-lg shadow-red-600/20 emergency-pulse"
                   data-testid="header-call-btn"
@@ -173,7 +173,7 @@ export const Header = () => {
                     </nav>
 
                     <div className="pt-6 border-t">
-                      <a href="tel:9666606910" className="block">
+                      <a href="tel:9666069108" className="block">
                         <Button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold h-14 rounded-full text-lg">
                           <Phone className="w-5 h-5 mr-2" />
                           CALL NOW - 24/7

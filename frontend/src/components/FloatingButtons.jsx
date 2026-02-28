@@ -46,7 +46,7 @@ export const FloatingButtons = () => {
 
       {/* Call Button */}
       <motion.a
-        href="tel:9666606910"
+        href="tel:9666069108"
         className="w-16 h-16 bg-red-600 hover:bg-red-700 rounded-full flex items-center justify-center shadow-xl shadow-red-600/40 emergency-pulse"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}

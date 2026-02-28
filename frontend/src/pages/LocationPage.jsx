@@ -129,7 +129,7 @@ const LocationPage = () => {
     <>
       <SEOHead
         title={`Ambulance Service in ${data.name} | 24/7 Emergency Ambulance ${data.name} Hyderabad`}
-        description={`24/7 Emergency Ambulance Service in ${data.name}, Hyderabad. ICU Ambulance, Ventilator Ambulance, Oxygen Ambulance available. Fastest response time in ${data.name}. Call 9666606910.`}
+        description={`24/7 Emergency Ambulance Service in ${data.name}, Hyderabad. ICU Ambulance, Ventilator Ambulance, Oxygen Ambulance available. Fastest response time in ${data.name}. Call 9666069108.`}
         keywords={`ambulance service ${data.name.toLowerCase()}, emergency ambulance ${data.name.toLowerCase()}, ICU ambulance ${data.name.toLowerCase()}, 24 hour ambulance ${data.name.toLowerCase()} hyderabad`}
         canonicalUrl={`https://srisaideekshithaambulance.com/ambulance-service-${location}`}
         areaName={data.name}
@@ -161,10 +161,10 @@ const LocationPage = () => {
               ICU setup and trained paramedics.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:9666606910">
+              <a href="tel:9666069108">
                 <Button className="bg-white text-blue-700 hover:bg-slate-100 font-bold text-lg h-16 px-10 rounded-full shadow-xl emergency-pulse">
                   <Phone className="w-6 h-6 mr-3" />
-                  CALL 9666606910
+                  CALL 9666069108
                 </Button>
               </a>
               <a href="https://wa.me/919948386178" target="_blank" rel="noopener noreferrer">
@@ -298,10 +298,10 @@ const LocationPage = () => {
                     <p className="mb-6 text-red-100">
                       24/7 Emergency Service Available
                     </p>
-                    <a href="tel:9666606910" className="block">
+                    <a href="tel:9666069108" className="block">
                       <Button className="w-full bg-white text-red-600 hover:bg-slate-100 font-bold h-14 rounded-full text-lg mb-3">
                         <Phone className="w-5 h-5 mr-2" />
-                        9666606910
+                        9666069108
                       </Button>
                     </a>
                     <a href="tel:9948386178" className="block">
@@ -382,10 +382,10 @@ const LocationPage = () => {
             <p className="text-xl text-red-100 mb-8">
               Fastest ambulance service in {data.name} - Available 24/7
             </p>
-            <a href="tel:9666606910">
+            <a href="tel:9666069108">
               <Button className="bg-white text-red-600 hover:bg-slate-100 font-bold text-lg h-16 px-12 rounded-full shadow-xl">
                 <Phone className="w-6 h-6 mr-3" />
-                CALL NOW - 9666606910
+                CALL NOW - 9666069108
               </Button>
             </a>
           </motion.div>

@@ -49,7 +49,7 @@ const ICUAmbulancePage = () => {
     },
     {
       question: 'What is the cost of ICU Ambulance service in Hyderabad?',
-      answer: 'ICU Ambulance service cost depends on the distance, duration, and equipment required. We offer transparent pricing with no hidden charges. For exact pricing, please call us at 9666606910. We provide affordable rates for emergency and planned transfers.'
+      answer: 'ICU Ambulance service cost depends on the distance, duration, and equipment required. We offer transparent pricing with no hidden charges. For exact pricing, please call us at 9666069108. We provide affordable rates for emergency and planned transfers.'
     }
   ];
 
@@ -57,7 +57,7 @@ const ICUAmbulancePage = () => {
     <>
       <SEOHead
         title="ICU Ambulance Service in Hyderabad | Advanced Life Support Ambulance 24/7"
-        description="Best ICU Ambulance Service in Hyderabad. Advanced life support ambulance with ventilator, cardiac monitor, defibrillator. 24/7 emergency service. Call 9666606910 for fastest ICU ambulance."
+        description="Best ICU Ambulance Service in Hyderabad. Advanced life support ambulance with ventilator, cardiac monitor, defibrillator. 24/7 emergency service. Call 9666069108 for fastest ICU ambulance."
         keywords="ICU ambulance hyderabad, advanced life support ambulance, mobile ICU hyderabad, critical care ambulance, ICU ambulance service near me, emergency ICU ambulance"
         canonicalUrl="https://srisaideekshithaambulance.com/icu-ambulance-hyderabad"
         serviceName="ICU Ambulance Service"
@@ -88,10 +88,10 @@ const ICUAmbulancePage = () => {
                 Our mobile ICU ambulances are equipped to handle all critical care emergencies.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:9666606910">
+                <a href="tel:9666069108">
                   <Button className="bg-white text-red-600 hover:bg-slate-100 font-bold text-lg h-16 px-10 rounded-full shadow-xl emergency-pulse">
                     <Phone className="w-6 h-6 mr-3" />
-                    CALL 9666606910
+                    CALL 9666069108
                   </Button>
                 </a>
                 <a href="https://wa.me/919948386178" target="_blank" rel="noopener noreferrer">
@@ -271,10 +271,10 @@ const ICUAmbulancePage = () => {
                     <p className="mb-6 text-red-100">
                       Call now for fastest ICU Ambulance service in Hyderabad
                     </p>
-                    <a href="tel:9666606910" className="block">
+                    <a href="tel:9666069108" className="block">
                       <Button className="w-full bg-white text-red-600 hover:bg-slate-100 font-bold h-14 rounded-full text-lg mb-3">
                         <Phone className="w-5 h-5 mr-2" />
-                        9666606910
+                        9666069108
                       </Button>
                     </a>
                     <a href="tel:9948386178" className="block">
@@ -350,10 +350,10 @@ const ICUAmbulancePage = () => {
               Available 24/7 for emergency and planned patient transfers. 
               Fastest response time guaranteed.
             </p>
-            <a href="tel:9666606910">
+            <a href="tel:9666069108">
               <Button className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg h-16 px-12 rounded-full shadow-xl emergency-pulse">
                 <Phone className="w-6 h-6 mr-3" />
-                CALL NOW - 9666606910
+                CALL NOW - 9666069108
               </Button>
             </a>
           </motion.div>

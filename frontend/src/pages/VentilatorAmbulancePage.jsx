@@ -49,7 +49,7 @@ const VentilatorAmbulancePage = () => {
     },
     {
       question: 'How much does ventilator ambulance service cost in Hyderabad?',
-      answer: 'Ventilator ambulance charges vary based on distance and duration. We offer competitive and transparent pricing. Please call us at 9666606910 for exact pricing based on your requirements.'
+      answer: 'Ventilator ambulance charges vary based on distance and duration. We offer competitive and transparent pricing. Please call us at 9666069108 for exact pricing based on your requirements.'
     }
   ];
 
@@ -57,7 +57,7 @@ const VentilatorAmbulancePage = () => {
     <>
       <SEOHead
         title="Ventilator Ambulance Service in Hyderabad | ICU Ventilator Ambulance 24/7"
-        description="Best Ventilator Ambulance Service in Hyderabad. Portable ventilator ambulance with BiPAP/CPAP support. 24/7 emergency service for respiratory patients. Call 9666606910."
+        description="Best Ventilator Ambulance Service in Hyderabad. Portable ventilator ambulance with BiPAP/CPAP support. 24/7 emergency service for respiratory patients. Call 9666069108."
         keywords="ventilator ambulance hyderabad, ICU ventilator ambulance, respiratory ambulance, portable ventilator ambulance, ventilator ambulance service near me"
         canonicalUrl="https://srisaideekshithaambulance.com/ventilator-ambulance-hyderabad"
         serviceName="Ventilator Ambulance Service"
@@ -88,10 +88,10 @@ const VentilatorAmbulancePage = () => {
                 portable ventilators, BiPAP/CPAP machines, and staffed by trained respiratory therapists.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:9666606910">
+                <a href="tel:9666069108">
                   <Button className="bg-white text-blue-700 hover:bg-slate-100 font-bold text-lg h-16 px-10 rounded-full shadow-xl emergency-pulse">
                     <Phone className="w-6 h-6 mr-3" />
-                    CALL 9666606910
+                    CALL 9666069108
                   </Button>
                 </a>
                 <a href="https://wa.me/919948386178" target="_blank" rel="noopener noreferrer">
@@ -267,10 +267,10 @@ const VentilatorAmbulancePage = () => {
                     <p className="mb-6 text-blue-100">
                       24/7 Ventilator Ambulance Service in Hyderabad
                     </p>
-                    <a href="tel:9666606910" className="block">
+                    <a href="tel:9666069108" className="block">
                       <Button className="w-full bg-white text-blue-700 hover:bg-slate-100 font-bold h-14 rounded-full text-lg mb-3">
                         <Phone className="w-5 h-5 mr-2" />
-                        9666606910
+                        9666069108
                       </Button>
                     </a>
                     <a href="tel:9948386178" className="block">
@@ -328,10 +328,10 @@ const VentilatorAmbulancePage = () => {
             <p className="text-xl text-red-100 mb-8">
               Available 24/7 with trained respiratory therapists
             </p>
-            <a href="tel:9666606910">
+            <a href="tel:9666069108">
               <Button className="bg-white text-red-600 hover:bg-slate-100 font-bold text-lg h-16 px-12 rounded-full shadow-xl">
                 <Phone className="w-6 h-6 mr-3" />
-                CALL NOW - 9666606910
+                CALL NOW - 9666069108
               </Button>
             </a>
           </motion.div>

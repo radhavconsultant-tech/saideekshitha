@@ -145,7 +145,7 @@ const AboutPage = () => {
                 Our commitment is to reach you within 15-20 minutes, anywhere in the city.
               </p>
 
-              <a href="tel:9666606910">
+              <a href="tel:9666069108">
                 <Button className="bg-red-600 hover:bg-red-700 text-white font-bold px-8 h-14 rounded-full text-lg shadow-lg shadow-red-600/20">
                   <Phone className="w-5 h-5 mr-2" />
                   Contact Us Now
@@ -370,10 +370,10 @@ const AboutPage = () => {
               Sri Sai Deekshitha Ambulance Service is here to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:9666606910">
+              <a href="tel:9666069108">
                 <Button className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg h-16 px-12 rounded-full shadow-xl">
                   <Phone className="w-6 h-6 mr-3" />
-                  Call 9666606910
+                  Call 9666069108
                 </Button>
               </a>
               <Link to="/ambulance-services">

@@ -121,7 +121,7 @@ const ServicesPage = () => {
     <>
       <SEOHead
         title="Ambulance Services in Hyderabad | ICU, Ventilator, Oxygen Ambulance - Sri Sai Deekshitha"
-        description="Complete ambulance services in Hyderabad - ICU Ambulance, Ventilator Ambulance, Oxygen Ambulance, Cardiac Ambulance, Neonatal Ambulance, Dead Body Freezer Box. 24/7 emergency service. Call 9666606910."
+        description="Complete ambulance services in Hyderabad - ICU Ambulance, Ventilator Ambulance, Oxygen Ambulance, Cardiac Ambulance, Neonatal Ambulance, Dead Body Freezer Box. 24/7 emergency service. Call 9666069108."
         keywords="ambulance services hyderabad, ICU ambulance hyderabad, ventilator ambulance hyderabad, oxygen ambulance hyderabad, cardiac ambulance, neonatal ambulance, dead body freezer box hyderabad"
         canonicalUrl="https://srisaideekshithaambulance.com/ambulance-services"
         serviceName="Ambulance Service"
@@ -154,7 +154,7 @@ const ServicesPage = () => {
               Neonatal ambulances and Dead Body Freezer Box services. All ambulances equipped with 
               modern medical equipment and staffed by certified paramedics.
             </p>
-            <a href="tel:9666606910">
+            <a href="tel:9666069108">
               <Button className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg h-14 px-10 rounded-full shadow-xl shadow-red-600/30 emergency-pulse">
                 <Phone className="w-5 h-5 mr-2" />
                 Book Ambulance Now
@@ -211,7 +211,7 @@ const ServicesPage = () => {
                         </div>
                         
                         <div className="flex flex-col sm:flex-row gap-4">
-                          <a href="tel:9666606910">
+                          <a href="tel:9666069108">
                             <Button className="bg-red-600 hover:bg-red-700 text-white font-bold px-6 h-12 rounded-full">
                               <Phone className="w-4 h-4 mr-2" />
                               Call Now
@@ -312,10 +312,10 @@ const ServicesPage = () => {
               Available 24/7 across Hyderabad. Our team is ready to serve you in any medical emergency.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:9666606910">
+              <a href="tel:9666069108">
                 <Button className="bg-white text-red-600 hover:bg-slate-100 font-bold text-lg h-16 px-12 rounded-full shadow-xl">
                   <Phone className="w-6 h-6 mr-3" />
-                  CALL 9666606910
+                  CALL 9666069108
                 </Button>
               </a>
               <a href="https://wa.me/919948386178" target="_blank" rel="noopener noreferrer">

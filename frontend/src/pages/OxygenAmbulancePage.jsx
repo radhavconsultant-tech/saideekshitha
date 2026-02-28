@@ -49,7 +49,7 @@ const OxygenAmbulancePage = () => {
     },
     {
       question: 'What is the cost of oxygen ambulance in Hyderabad?',
-      answer: 'Oxygen ambulance service charges depend on distance and oxygen requirements. We offer affordable and transparent pricing. Call 9666606910 for exact rates based on your specific needs.'
+      answer: 'Oxygen ambulance service charges depend on distance and oxygen requirements. We offer affordable and transparent pricing. Call 9666069108 for exact rates based on your specific needs.'
     }
   ];
 
@@ -57,7 +57,7 @@ const OxygenAmbulancePage = () => {
     <>
       <SEOHead
         title="Oxygen Ambulance Service in Hyderabad | 24/7 Emergency Oxygen Ambulance"
-        description="Best Oxygen Ambulance Service in Hyderabad with jumbo oxygen cylinders. 24/7 emergency oxygen ambulance for COVID patients, COPD, respiratory distress. Call 9666606910."
+        description="Best Oxygen Ambulance Service in Hyderabad with jumbo oxygen cylinders. 24/7 emergency oxygen ambulance for COVID patients, COPD, respiratory distress. Call 9666069108."
         keywords="oxygen ambulance hyderabad, oxygen ambulance service near me, emergency oxygen ambulance, oxygen cylinder ambulance, COVID ambulance hyderabad"
         canonicalUrl="https://srisaideekshithaambulance.com/oxygen-ambulance-hyderabad"
         serviceName="Oxygen Ambulance Service"
@@ -88,10 +88,10 @@ const OxygenAmbulancePage = () => {
                 with breathing difficulties, COVID-19 patients, and respiratory emergencies.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:9666606910">
+                <a href="tel:9666069108">
                   <Button className="bg-white text-green-700 hover:bg-slate-100 font-bold text-lg h-16 px-10 rounded-full shadow-xl emergency-pulse">
                     <Phone className="w-6 h-6 mr-3" />
-                    CALL 9666606910
+                    CALL 9666069108
                   </Button>
                 </a>
                 <a href="https://wa.me/919948386178" target="_blank" rel="noopener noreferrer">
@@ -267,10 +267,10 @@ const OxygenAmbulancePage = () => {
                     <p className="mb-6 text-green-100">
                       24/7 Oxygen Ambulance Service in Hyderabad
                     </p>
-                    <a href="tel:9666606910" className="block">
+                    <a href="tel:9666069108" className="block">
                       <Button className="w-full bg-white text-green-600 hover:bg-slate-100 font-bold h-14 rounded-full text-lg mb-3">
                         <Phone className="w-5 h-5 mr-2" />
-                        9666606910
+                        9666069108
                       </Button>
                     </a>
                     <a href="tel:9948386178" className="block">
@@ -328,10 +328,10 @@ const OxygenAmbulancePage = () => {
             <p className="text-xl text-red-100 mb-8">
               Available 24/7 with jumbo oxygen cylinders
             </p>
-            <a href="tel:9666606910">
+            <a href="tel:9666069108">
               <Button className="bg-white text-red-600 hover:bg-slate-100 font-bold text-lg h-16 px-12 rounded-full shadow-xl">
                 <Phone className="w-6 h-6 mr-3" />
-                CALL NOW - 9666606910
+                CALL NOW - 9666069108
               </Button>
             </a>
           </motion.div>

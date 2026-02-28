@@ -51,7 +51,7 @@ const ContactPage = () => {
     <>
       <SEOHead
         title="Contact Sri Sai Deekshitha Ambulance Service | 24/7 Emergency - Hyderabad"
-        description="Contact Sri Sai Deekshitha Ambulance Service for 24/7 emergency ambulance in Hyderabad. Call 9666606910 or 9948386178. Location: LB Nagar, Beside Global Hospital."
+        description="Contact Sri Sai Deekshitha Ambulance Service for 24/7 emergency ambulance in Hyderabad. Call 9666069108 or 9948386178. Location: LB Nagar, Beside Global Hospital."
         keywords="contact ambulance hyderabad, emergency ambulance phone number, ambulance service LB nagar, 24 hour ambulance contact hyderabad"
         canonicalUrl="https://srisaideekshithaambulance.com/contact"
       />
@@ -91,8 +91,8 @@ const ContactPage = () => {
               {
                 icon: <Phone className="w-8 h-8" />,
                 title: 'Emergency Line 1',
-                info: '9666606910',
-                link: 'tel:9666606910',
+                info: '9666069108',
+                link: 'tel:9666069108',
                 color: 'bg-red-600'
               },
               {
@@ -167,7 +167,7 @@ const ContactPage = () => {
               </h2>
               <p className="text-lg text-slate-600 mb-8">
                 For non-emergency inquiries, fill out the form below. For emergencies, 
-                please call us directly at <strong>9666606910</strong>.
+                please call us directly at <strong>9666069108</strong>.
               </p>
 
               <Card className="bg-white shadow-lg border-none">
@@ -378,10 +378,10 @@ const ContactPage = () => {
               Don't wait - Call us immediately for fastest ambulance service in Hyderabad
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:9666606910">
+              <a href="tel:9666069108">
                 <Button className="bg-white text-red-600 hover:bg-slate-100 font-bold text-lg h-16 px-12 rounded-full shadow-xl">
                   <Phone className="w-6 h-6 mr-3" />
-                  9666606910
+                  9666069108
                 </Button>
               </a>
               <a href="tel:9948386178">

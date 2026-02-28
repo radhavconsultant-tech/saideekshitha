@@ -72,7 +72,7 @@ export const SEOHead = ({
       "name": "Sri Sai Deekshitha Ambulance Service",
       "description": "24/7 Emergency Ambulance Service in Hyderabad. ICU Ambulance, Ventilator Ambulance, Oxygen Ambulance, Dead Body Freezer Box services.",
       "url": "https://srisaideekshithaambulance.com",
-      "telephone": ["+91-9666606910", "+91-9948386178"],
+      "telephone": ["+91-9666069108", "+91-9948386178"],
       "email": "contact@srisaideekshithaambulance.com",
       "address": {
         "@type": "PostalAddress",

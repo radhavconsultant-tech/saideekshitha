@@ -122,7 +122,7 @@ const HomePage = () => {
     },
     {
       question: 'What is the cost of ambulance service?',
-      answer: 'Our ambulance service charges depend on the type of ambulance and distance. We offer competitive and transparent pricing. Call us at 9666606910 for exact pricing based on your requirements.'
+      answer: 'Our ambulance service charges depend on the type of ambulance and distance. We offer competitive and transparent pricing. Call us at 9666069108 for exact pricing based on your requirements.'
     }
   ];
 
@@ -130,7 +130,7 @@ const HomePage = () => {
     <>
       <SEOHead
         title="Emergency Ambulance Service in Hyderabad | 24/7 ICU Ambulance - Sri Sai Deekshitha"
-        description="Sri Sai Deekshitha offers 24/7 emergency ambulance service in Hyderabad. ICU Ambulance, Ventilator Ambulance, Oxygen Ambulance, Dead Body Freezer Box. Call 9666606910 for fastest response."
+        description="Sri Sai Deekshitha offers 24/7 emergency ambulance service in Hyderabad. ICU Ambulance, Ventilator Ambulance, Oxygen Ambulance, Dead Body Freezer Box. Call 9666069108 for fastest response."
         keywords="emergency ambulance hyderabad, 24/7 ambulance service hyderabad, ICU ambulance hyderabad, ventilator ambulance hyderabad, ambulance service near me, dead body freezer box hyderabad"
         canonicalUrl="https://srisaideekshithaambulance.com/"
       />
@@ -172,13 +172,13 @@ const HomePage = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-10">
-                <a href="tel:9666606910">
+                <a href="tel:9666069108">
                   <Button 
                     className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg h-16 px-10 rounded-full shadow-xl shadow-red-600/30 emergency-pulse w-full sm:w-auto"
                     data-testid="hero-call-btn"
                   >
                     <Phone className="w-6 h-6 mr-3" />
-                    CALL NOW - 9666606910
+                    CALL NOW - 9666069108
                   </Button>
                 </a>
                 <a href="https://wa.me/919948386178" target="_blank" rel="noopener noreferrer">
@@ -335,7 +335,7 @@ const HomePage = () => {
               </div>
 
               <div className="mt-10">
-                <a href="tel:9666606910">
+                <a href="tel:9666069108">
                   <Button className="bg-red-600 hover:bg-red-700 text-white font-bold px-8 h-14 rounded-full text-lg shadow-lg shadow-red-600/20">
                     <Phone className="w-5 h-5 mr-2" />
                     Call for Emergency
@@ -553,13 +553,13 @@ const HomePage = () => {
               Don't wait! Our ambulance can reach you within 15-20 minutes anywhere in Hyderabad.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:9666606910">
+              <a href="tel:9666069108">
                 <Button 
                   className="bg-white text-red-600 hover:bg-slate-100 font-bold text-lg h-16 px-12 rounded-full shadow-xl"
                   data-testid="cta-call-btn"
                 >
                   <Phone className="w-6 h-6 mr-3" />
-                  CALL 9666606910
+                  CALL 9666069108
                 </Button>
               </a>
               <a href="tel:9948386178">
