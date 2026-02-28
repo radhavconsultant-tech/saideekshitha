@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { 
   Phone, MapPin, CheckCircle, Clock, Shield, 
   Heart, ArrowRight, Truck
@@ -48,7 +48,10 @@ const locationData = {
 };
 
 const LocationPage = () => {
-  const { location } = useParams();
+  const routeLocation = useLocation();
+  const pathname = routeLocation.pathname;
+  // Extract location from URL like /ambulance-service-kukatpally -> kukatpally
+  const location = pathname.replace('/ambulance-service-', '');
   const data = locationData[location] || locationData['kukatpally'];
 
   const services = [
