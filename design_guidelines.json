@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "persona": "E1",
+    "tone": "Urgent, Professional, Trustworthy, Modern",
+    "archetype": "Swiss & High-Contrast (Medical Variant)",
+    "mission": "Create a high-converting, life-saving interface that prioritizes speed and clarity."
+  },
+  "theme": {
+    "mode": "light",
+    "strategy": "Medical Clinical with High-Urgency Accents",
+    "background_color": "bg-slate-50",
+    "surface_color": "bg-white",
+    "primary_color": "bg-red-600",
+    "secondary_color": "bg-blue-700"
+  },
+  "typography": {
+    "font_family_headings": "Oswald, sans-serif",
+    "font_family_body": "Plus Jakarta Sans, sans-serif",
+    "heading_styles": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight uppercase leading-none",
+      "h2": "text-4xl md:text-5xl font-bold tracking-tight uppercase text-slate-900",
+      "h3": "text-2xl md:text-3xl font-semibold tracking-normal text-slate-800"
+    },
+    "body_styles": {
+      "base": "text-base md:text-lg text-slate-600 leading-relaxed",
+      "small": "text-sm text-slate-500 font-medium",
+      "large": "text-xl text-slate-700 font-medium leading-snug"
+    },
+    "instructions": "Import 'Oswald' (weights 400, 500, 700) and 'Plus Jakarta Sans' (weights 400, 500, 600, 700) from Google Fonts in index.css."
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "default": "#DC2626",
+        "hover": "#B91C1C",
+        "foreground": "#FFFFFF"
+      },
+      "secondary": {
+        "default": "#1D4ED8",
+        "hover": "#1E40AF",
+        "foreground": "#FFFFFF"
+      },
+      "accent": {
+        "default": "#FACC15",
+        "foreground": "#000000"
+      },
+      "neutral": {
+        "50": "#F8FAFC",
+        "100": "#F1F5F9",
+        "200": "#E2E8F0",
+        "300": "#CBD5E1",
+        "800": "#1E293B",
+        "900": "#0F172A"
+      }
+    },
+    "usage": {
+      "cta_primary": "bg-red-600 hover:bg-red-700 text-white shadow-lg shadow-red-600/20",
+      "cta_secondary": "bg-white border-2 border-slate-200 hover:border-blue-600 text-slate-900 hover:text-blue-700",
+      "surface_card": "bg-white border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300",
+      "text_heading": "text-slate-900",
+      "text_body": "text-slate-600"
+    }
+  },
+  "layout_strategy": {
+    "container": "container mx-auto px-4 md:px-6 max-w-7xl",
+    "spacing": {
+      "section_padding": "py-16 md:py-24",
+      "element_gap": "gap-6 md:gap-8"
+    },
+    "grid_system": {
+      "bento_grid": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+      "feature_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+    }
+  },
+  "components": {
+    "buttons": {
+      "default": "h-12 px-8 rounded-full font-bold uppercase tracking-wide transition-all active:scale-95",
+      "emergency": "animate-pulse bg-red-600 text-white hover:bg-red-700 h-14 px-10 rounded-full text-lg shadow-xl shadow-red-500/30 ring-4 ring-red-100"
+    },
+    "cards": {
+      "service_card": "group relative overflow-hidden rounded-2xl bg-white p-8 border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1",
+      "testimonial_card": "bg-slate-50 p-8 rounded-2xl border-l-4 border-blue-600"
+    },
+    "navigation": {
+      "sticky_header": "sticky top-0 z-50 w-full border-b border-slate-100 bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/80",
+      "floating_fab": "fixed bottom-6 right-6 z-50 flex flex-col gap-4"
+    }
+  },
+  "visual_enhancers": {
+    "gradients": {
+      "hero_overlay": "bg-gradient-to-r from-slate-900/90 to-slate-900/40",
+      "subtle_glow": "bg-gradient-to-tr from-blue-50 to-white"
+    },
+    "shadows": {
+      "soft": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "colored": "shadow-[0_8px_30px_rgb(37,99,235,0.1)]"
+    },
+    "borders": {
+      "subtle": "border border-slate-100",
+      "highlight": "border-l-4 border-red-600"
+    }
+  },
+  "motion": {
+    "library": "framer-motion",
+    "entrance": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "transition": { "duration": 0.5, "ease": "easeOut" }
+    },
+    "hover": {
+      "scale": 1.02,
+      "transition": { "duration": 0.2 }
+    },
+    "marquee": "Use react-fast-marquee for 'Hospitals We Serve' or 'Coverage Areas'"
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1767990375666-8df94ab0f9e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwxfHxhbWJ1bGFuY2UlMjBlbWVyZ2VuY3klMjB2ZWhpY2xlJTIwYmx1ZSUyMGxpZ2h0c3xlbnwwfHx8fDE3NzIyNzY4Mzh8MA&ixlib=rb-4.1.0&q=85",
+      "ambulance_exterior": "https://images.unsplash.com/photo-1765752958045-1d515310262f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwzfHxhbWJ1bGFuY2UlMjBlbWVyZ2VuY3klMjB2ZWhpY2xlJTIwYmx1ZSUyMGxpZ2h0c3xlbnwwfHx8fDE3NzIyNzY4Mzh8MA&ixlib=rb-4.1.0&q=85",
+      "icu_equipment": "https://images.unsplash.com/photo-1770836037704-44bd8c7b6978?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxtZWRpY2FsJTIwdmVudGlsYXRvciUyMGhvc3BpdGFsJTIwbW9uaXRvciUyMHNjcmVlbnxlbnwwfHx8fDE3NzIyNzY4NTJ8MA&ixlib=rb-4.1.0&q=85",
+      "paramedic_team": "https://images.unsplash.com/photo-1621445713722-d3f32fd876a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwzfHxtZWRpY2FsJTIwdGVhbSUyMGRvY3RvciUyMG51cnNlJTIwcG9ydHJhaXQlMjB3aGl0ZSUyMGNvYXR8ZW58MHx8fHwxNzcyMjc2ODUxfDA&ixlib=rb-4.1.0&q=85",
+      "hyderabad_landmark": "https://images.unsplash.com/photo-1741545979534-02f59c742730?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwzfHxoeWRlcmFiYWQlMjBjaXR5JTIwbGFuZG1hcmslMjBjaGFybWluYXJ8ZW58MHx8fHwxNzcyMjc2ODQxfDA&ixlib=rb-4.1.0&q=85"
+    },
+    "icons": "Use lucide-react (e.g., Phone, MapPin, Clock, Siren, HeartPulse, ShieldCheck)"
+  },
+  "accessibility": {
+    "contrast": "Ensure 4.5:1 contrast ratio for all text. Use white text only on dark red/blue backgrounds.",
+    "aria": "All buttons must have aria-label. Images must have alt text describing the medical context.",
+    "reduced_motion": "Disable animations if prefers-reduced-motion is true."
+  },
+  "instructions_to_main_agent": [
+    "INSTALL: npm install framer-motion lucide-react react-fast-marquee clsx tailwind-merge",
+    "SETUP: Add 'Oswald' and 'Plus Jakarta Sans' to index.css via @import or <link>.",
+    "LAYOUT: Use a Sticky Header with a prominent 'Call Now' button visible at all times.",
+    "HERO: Use the 'ambulance_exterior' or 'hero_bg' image with a dark overlay and high-contrast white text. The 'Emergency Call' button must be the most visible element.",
+    "SERVICES: Use a Bento Grid layout. Make cards clickable.",
+    "CONTACT: Add a Floating Action Button (FAB) at the bottom-right for WhatsApp and Call.",
+    "SEO: Add Schema.org 'EmergencyService' JSON-LD to the head.",
+    "TESTING: Add data-testid to all CTA buttons (e.g., 'hero-call-btn', 'whatsapp-fab')."
+  ],
+  "UNIVERSAL_GUIDELINES": {
+    "do_not_use": ["gradients on text", "rounded-none (unless intentional)", "pure black #000000"],
+    "must_use": ["generous padding (py-20)", "micro-interactions on hover", "mobile-first grid classes"],
+    "export_convention": "Named exports for components, Default exports for pages."
+  }
+}
