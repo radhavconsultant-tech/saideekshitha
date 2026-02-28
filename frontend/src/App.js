@@ -37,12 +37,22 @@ function App() {
             <Route path="/dead-body-freezer-box-hyderabad" element={<DeadBodyFreezerBoxPage />} />
             
             {/* Location Pages */}
+            <Route path="/ambulance-service-miyapur" element={<LocationPage />} />
+            <Route path="/ambulance-service-kphb" element={<LocationPage />} />
             <Route path="/ambulance-service-kukatpally" element={<LocationPage />} />
-            <Route path="/ambulance-service-gachibowli" element={<LocationPage />} />
-            <Route path="/ambulance-service-madhapur" element={<LocationPage />} />
+            <Route path="/ambulance-service-ameerpet" element={<LocationPage />} />
+            <Route path="/ambulance-service-dilsukhnagar" element={<LocationPage />} />
             <Route path="/ambulance-service-lb-nagar" element={<LocationPage />} />
             <Route path="/ambulance-service-secunderabad" element={<LocationPage />} />
+            <Route path="/ambulance-service-hitec-city" element={<LocationPage />} />
+            <Route path="/ambulance-service-madhapur" element={<LocationPage />} />
+            <Route path="/ambulance-service-gachibowli" element={<LocationPage />} />
             <Route path="/ambulance-service-uppal" element={<LocationPage />} />
+            <Route path="/ambulance-service-begumpet" element={<LocationPage />} />
+            <Route path="/ambulance-service-jubilee-hills" element={<LocationPage />} />
+            <Route path="/ambulance-service-nampally" element={<LocationPage />} />
+            <Route path="/ambulance-service-mgbs" element={<LocationPage />} />
+            <Route path="/ambulance-service-tarnaka" element={<LocationPage />} />
             
             {/* Fallback to Home */}
             <Route path="*" element={<HomePage />} />
