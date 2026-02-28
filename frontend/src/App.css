@@ -1,34 +1,123 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Sri Sai Deekshitha Ambulance Service - Custom Styles */
+
+/* Hero section background */
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.7) 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+/* Card hover effects */
+.service-card {
+  transition: all 0.3s ease;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
 }
 
-.App-link {
-    color: #61dafb;
+/* Trust badge styling */
+.trust-badge {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+/* Responsive text */
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Map container */
+.map-container {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ accordion styling */
+.faq-item {
+  border-left: 4px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  border-left-color: #DC2626;
+  background: #f8fafc;
+}
+
+/* Floating action buttons */
+.fab-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Schema markup container (hidden) */
+.schema-markup {
+  display: none;
+}
+
+/* Area tag styling */
+.area-tag {
+  transition: all 0.2s ease;
+}
+
+.area-tag:hover {
+  background: #1D4ED8;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Testimonial card */
+.testimonial-card {
+  position: relative;
+}
+
+.testimonial-card::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-size: 80px;
+  color: #DC2626;
+  opacity: 0.2;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Sticky header shadow on scroll */
+.header-scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Service icon container */
+.service-icon {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+}
+
+/* Location page hero */
+.location-hero {
+  background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
+}
+
+/* WhatsApp green */
+.whatsapp-btn {
+  background: #25D366;
+}
+
+.whatsapp-btn:hover {
+  background: #128C7E;
+}
+
+/* Phone call red */
+.call-btn {
+  background: #DC2626;
+}
+
+.call-btn:hover {
+  background: #B91C1C;
 }
