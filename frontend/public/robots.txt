@@ -1,0 +1,11 @@
+# Sri Sai Deekshitha Ambulance Service
+# https://srisaideekshithaambulance.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://srisaideekshithaambulance.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
