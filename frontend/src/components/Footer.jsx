@@ -12,12 +12,16 @@ export const Footer = () => {
   ];
 
   const areas = [
+    { name: 'Miyapur', path: '/ambulance-service-miyapur' },
+    { name: 'KPHB', path: '/ambulance-service-kphb' },
     { name: 'Kukatpally', path: '/ambulance-service-kukatpally' },
-    { name: 'Gachibowli', path: '/ambulance-service-gachibowli' },
-    { name: 'Madhapur', path: '/ambulance-service-madhapur' },
+    { name: 'Ameerpet', path: '/ambulance-service-ameerpet' },
+    { name: 'Dilsukhnagar', path: '/ambulance-service-dilsukhnagar' },
     { name: 'LB Nagar', path: '/ambulance-service-lb-nagar' },
     { name: 'Secunderabad', path: '/ambulance-service-secunderabad' },
-    { name: 'Uppal', path: '/ambulance-service-uppal' },
+    { name: 'HITEC City', path: '/ambulance-service-hitec-city' },
+    { name: 'Madhapur', path: '/ambulance-service-madhapur' },
+    { name: 'Gachibowli', path: '/ambulance-service-gachibowli' },
   ];
 
   const quickLinks = [
