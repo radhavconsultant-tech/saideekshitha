@@ -50,15 +50,11 @@ export const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">+</span>
-              </div>
-              <div>
-                <h3 className="font-bold text-xl" style={{ fontFamily: 'Oswald, sans-serif' }}>
-                  SRI SAI DEEKSHITHA
-                </h3>
-                <p className="text-sm text-slate-400">Ambulance Service</p>
-              </div>
+              <img 
+                src="/logo.svg" 
+                alt="Sri Sai Deekshitha Ambulance Service" 
+                className="h-14 w-auto"
+              />
             </div>
             <p className="text-slate-400 mb-6 leading-relaxed">
               Hyderabad's most trusted 24/7 emergency ambulance service provider. Fast response, modern equipment, and certified paramedics.

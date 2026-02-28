@@ -71,15 +71,11 @@ export const Header = () => {
           <div className="flex h-16 md:h-20 items-center justify-between">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3" data-testid="logo-link">
-              <div className="w-10 h-10 md:w-12 md:h-12 bg-red-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg md:text-xl">+</span>
-              </div>
-              <div className="hidden sm:block">
-                <h1 className="font-bold text-lg md:text-xl text-slate-900 leading-tight" style={{ fontFamily: 'Oswald, sans-serif' }}>
-                  SRI SAI DEEKSHITHA
-                </h1>
-                <p className="text-xs text-slate-500 uppercase tracking-wider">Ambulance Service</p>
-              </div>
+              <img 
+                src="/logo.svg" 
+                alt="Sri Sai Deekshitha Ambulance Service Logo" 
+                className="h-12 md:h-14 w-auto"
+              />
             </Link>
 
             {/* Desktop Navigation */}
@@ -140,15 +136,11 @@ export const Header = () => {
                 <SheetContent side="right" className="w-[300px] sm:w-[350px]">
                   <div className="flex flex-col gap-6 mt-8">
                     <div className="flex items-center gap-3 pb-6 border-b">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center">
-                        <span className="text-white font-bold text-lg">+</span>
-                      </div>
-                      <div>
-                        <h2 className="font-bold text-lg" style={{ fontFamily: 'Oswald, sans-serif' }}>
-                          SRI SAI DEEKSHITHA
-                        </h2>
-                        <p className="text-xs text-slate-500">Ambulance Service</p>
-                      </div>
+                      <img 
+                        src="/logo.svg" 
+                        alt="Sri Sai Deekshitha Ambulance Service" 
+                        className="h-12 w-auto"
+                      />
                     </div>
 
                     <nav className="flex flex-col gap-4">
